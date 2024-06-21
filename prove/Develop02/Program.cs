@@ -25,7 +25,7 @@ class Program
 
             if (choice == 1)
             {
-                
+
                 string newPrompt = p.GetRandomPrompt();
                 Console.WriteLine(newPrompt);
                 string answer1 = Console.ReadLine();
