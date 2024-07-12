@@ -14,12 +14,12 @@ public class SimpleGoal : Goal
         Console.WriteLine($"Congratulations! You have earned {GetPoints()}!");
         _isComplete = true;
         GetStringRepresentation();
-        
-        
+
+
     }
 
     public override bool IsComplete()
-    {   
+    {
         return _isComplete;
     }
 
